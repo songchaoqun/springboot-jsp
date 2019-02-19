@@ -17,6 +17,7 @@ public class MyBatisConfiguration {
         p.setProperty("reasonable", "true");
         pageHelper.setProperties(p);
         /*pageHelper.setProperties(p);*/
+        /*pageHelper.setProperties(p);*/
 /*
         return pageHelper;
 */
