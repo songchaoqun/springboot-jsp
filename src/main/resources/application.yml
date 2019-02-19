@@ -1,0 +1,35 @@
+server:
+  port: 8080
+  servlet:
+    path: /springboot
+  tomcat:
+    uri-encoding: UTF-8
+age: 15
+id: 18
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+  thymeleaf:
+    cache: false   #关闭缓存
+    enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mydb?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  application:
+    name: springboot-jsp
+custom:
+  datasource:
+     name
