@@ -16,6 +16,9 @@ public class MyBatisConfiguration {
         p.setProperty("rowBoundsWithCount", "true");
         p.setProperty("reasonable", "true");
         pageHelper.setProperties(p);
+/*
+        return pageHelper;
+*/
         return pageHelper;
     }
 }
